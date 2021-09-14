@@ -13,6 +13,9 @@
 #    Logging: 
 #       Only errors and user messages are prompted on the console
 #       all other debug details are logged in log files
+#    Authentication:
+#       In this POC, authentication for users is ignoreed. In real system, only user authentication can be put in place
+#       For the POC purpose, VM authneticaiton is done with username and password from env variables. IN real world, sensitive info like password or private key must come from secret manager like jenins creds or vault, cloud based secret manaers
 ############################################################################################
 
 # External libraries import
