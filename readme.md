@@ -2,6 +2,7 @@ ExecutionResults:
 
 ### Admin user list all users
 
+```sh
 (platform9-assignment) vivekshinde@Viveks-MacBook-Air project % python main.py 
 ######################################
 #  Welcome to VM reservation system  #
@@ -21,8 +22,10 @@ Select operation to be performed : 1
    2  vm3     localhost
    3  vm4     localhost
    4  vm5     localhost         1
+```
 
 ### Non-admin user creates VM - quota exceeded
+```sh
 (platform9-assignment) vivekshinde@Viveks-MacBook-Air project % python main.py
 ######################################
 #  Welcome to VM reservation system  #
@@ -38,8 +41,10 @@ Quota exceeded for user 1. Below VM are already owned by user
   ID  NAME    HOSTNAME      OWNER
 ----  ------  ----------  -------
    4  vm5     localhost         1
+```
 
 ### VM checked out by normal user
+```sh
 (platform9-assignment) vivekshinde@Viveks-MacBook-Air project % python main.py
 ######################################
 #  Welcome to VM reservation system  #
@@ -54,8 +59,9 @@ Select operation to be performed : 1
 VM is checked out successfully under your ownership.
 
 VM details {'name': 'vm2', 'hostname': 'localhost', 'ip': '127.0.0.1', 'id': 1, 'owner': 2}
-
+```
 ### Validate new assignment of VM
+```sh
 (platform9-assignment) vivekshinde@Viveks-MacBook-Air project % python main.py
 ######################################
 #  Welcome to VM reservation system  #
@@ -75,8 +81,10 @@ Select operation to be performed : 1
    2  vm3     localhost
    3  vm4     localhost
    4  vm5     localhost         1
+```
 
 ### Show user their existing VMs
+```sh
 (platform9-assignment) vivekshinde@Viveks-MacBook-Air project % python main.py
 ######################################
 #  Welcome to VM reservation system  #
@@ -91,8 +99,9 @@ Select operation to be performed : 3
   ID  NAME    HOSTNAME      OWNER
 ----  ------  ----------  -------
    0  vm1     localhost         3
-
+```
 ### VM submitted back to system by user
+```sh
 (platform9-assignment) vivekshinde@Viveks-MacBook-Air project % python main.py
 ######################################
 #  Welcome to VM reservation system  #
@@ -109,9 +118,10 @@ Select operation to be performed : 2
    0  vm1     localhost         3
 VM is checked in successfully from your ownership.
 VM details {'name': 'vm1', 'hostname': 'localhost', 'ip': '127.0.0.1', 'id': 0, 'owner': None}
-
+```
 
 ### Error on Invalid choice 
+```sh
 (platform9-assignment) vivekshinde@Viveks-MacBook-Air project % python main.py
 ######################################
 #  Welcome to VM reservation system  #
@@ -120,6 +130,10 @@ VM details {'name': 'vm1', 'hostname': 'localhost', 'ip': '127.0.0.1', 'id': 0, 
 Please Provide the userid - o
 
 Invalid userid. Please provide your valid uid
+```
+
+### Validate 
+```sh
 (platform9-assignment) vivekshinde@Viveks-MacBook-Air project % python main.py
 ######################################
 #  Welcome to VM reservation system  #
@@ -139,3 +153,4 @@ Select operation to be performed : 1
    2  vm3     localhost
    3  vm4     localhost
    4  vm5     localhost         1
+```

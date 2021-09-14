@@ -1,1 +1,39 @@
-{"virtualMachines": [{"name": "vm1", "hostname": "localhost", "ip": "127.0.0.1", "id": 0, "owner": null}, {"name": "vm2", "hostname": "localhost", "ip": "127.0.0.1", "id": 1, "owner": 2}, {"name": "vm3", "hostname": "localhost", "ip": "127.0.0.1", "id": 2, "owner": null}, {"name": "vm4", "hostname": "localhost", "ip": "127.0.0.1", "id": 3, "owner": null}, {"name": "vm5", "hostname": "localhost", "ip": "127.0.0.1", "id": 4, "owner": 1}]}
+{
+    "virtualMachines": [
+        {
+            "name": "vm1",
+            "hostname": "localhost",
+            "ip": "127.0.0.1",
+            "id": 0,
+            "owner": null
+        },
+        {
+            "name": "vm2",
+            "hostname": "localhost",
+            "ip": "127.0.0.1",
+            "id": 1,
+            "owner": 2
+        },
+        {
+            "name": "vm3",
+            "hostname": "localhost",
+            "ip": "127.0.0.1",
+            "id": 2,
+            "owner": null
+        },
+        {
+            "name": "vm4",
+            "hostname": "localhost",
+            "ip": "127.0.0.1",
+            "id": 3,
+            "owner": null
+        },
+        {
+            "name": "vm5",
+            "hostname": "localhost",
+            "ip": "127.0.0.1",
+            "id": 4,
+            "owner": 1
+        }
+    ]
+}
