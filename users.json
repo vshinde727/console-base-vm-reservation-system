@@ -1,0 +1,36 @@
+{
+    "users": [
+        {
+            "name": "user1",
+            "roles": [
+                "admin"
+            ],
+            "quota": 5,
+            "id": 0
+        },
+        {
+            "name": "user2",
+            "roles": [
+                "developer"
+            ],
+            "quota": 1,
+            "id": 1
+        },
+        {
+            "name": "user1",
+            "roles": [
+                "tester"
+            ],
+            "quota": 1,
+            "id": 2
+        },
+        {
+            "name": "user1",
+            "roles": [
+                "tester"
+            ],
+            "quota": 1,
+            "id": 3
+        }
+    ]
+}
