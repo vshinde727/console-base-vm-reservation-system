@@ -1,7 +1,7 @@
 # Implementaion Details 
 ```sh
 #### Came across 3 options to implement it 
-**1. Python module (Choosen way for this POC)**
+1. Python module (Choosen way for this POC)
 2. Jenkins job where user can select the action and perform operations
 3. Kubernetes way 
         - Required Manifest / chart should include -
