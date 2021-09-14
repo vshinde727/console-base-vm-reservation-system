@@ -1,4 +1,27 @@
-ExecutionResults:
+# Details 
+```sh
+##########################################################################################
+# Virtual Machine reservation system
+# Author: Vivek Shinde
+# Description : 
+#    Datasource : 
+#       Json files (users.json - For user data and vmdata.json to maintain VM data)
+#       Data persistence is achived with file writeen to disc.
+#       In real world, the data source might be cloud API's or some other source of truth
+#    Usage: Just run the script and it will prompt for the user actions
+#       1. Provide the user id when prompted
+#       2. Based on user role, a list of menus will be prompted
+#       3. Based on selected menu item, action will be performed
+#    Logging: 
+#       Only errors and user messages are prompted on the console
+#       all other debug details are logged in log files
+#    Authentication:
+#       In this POC, authentication for users is ignoreed. In real system, only user authentication can be put in place
+#       For the POC purpose, VM authneticaiton is done with username and password from env variables. IN real world, sensitive info like password or private key must come from secret manager like jenins creds or vault, cloud based secret manaers
+############################################################################################
+```
+
+# ExecutionResults:
 
 ### Admin user list all users
 
